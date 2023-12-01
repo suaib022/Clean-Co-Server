@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(cors(
     {
-        origin: 'http://localhost:5173',
+        origin: 'https://clean-co-service-2a44b.web.app',
         credentials: true,
     }
 ))
